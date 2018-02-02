@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "railties", ">= 3.0", "< 5.0"
+  spec.add_dependency "railties", ">= 3.0", "<= 5.0.0.1"
   spec.add_dependency "json"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "nokogiri"
